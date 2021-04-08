@@ -11,7 +11,7 @@ public class TestPresenter {
     }
 
     public void login(User user) {
-        if ("wengzhen".equals(user.getUserName()) && "123456".equals(user.getPassword())) {
+        if ("zhangzhihao".equals(user.getUserName()) && "123456".equals(user.getPassword())) {
             view.showMessage("登录成功");
         } else {
             view.showMessage("登录失败");
